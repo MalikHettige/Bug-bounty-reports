@@ -29,7 +29,7 @@ Findings that were valid but didn't pay — duplicates, known issues, informatio
 
 | Date | Source | What happened | What I'd do differently |
 |------|--------|----------------|---------------------------|
-| | | | |
+| Aug 9, 2026 | Omnicell (VDP) | Reported missing auth on `POST /api/Common/Audit` (unauthenticated writes to audit log). Solid finding, correct methodology — but closed Aug 12 as duplicate of #3894990, submitted July 28 (12 days earlier) | Test/report faster after recon — the gap here wasn't skill, it was speed. Prioritize submitting as soon as a solid finding is confirmed rather than polishing the writeup further first |
 
 ---
 
