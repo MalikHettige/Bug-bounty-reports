@@ -1,6 +1,6 @@
 # Bounty Income Log — Goal: $10,000 (~3.28M LKR)
 
-# Created on 10th September 2026
+### Created on 10th September 2026
 
 This is the number that actually matters. Everything else — CryptoZombies, Cyfrin, Ethernaut, audit reports, medium write-ups, portswigger research papers, H101 CTFs ,PortSwigger labs, contests — is instrumental to this log filling up.
 
