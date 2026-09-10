@@ -1,5 +1,7 @@
 # Progress Tracker — 400 Accepted in 4 Years
 
+**Created**: 10-09-2026
+
 Goal: **400 accepted bug reports (BBP + VDP) within 4 years**, benchmarked against a known reference point (Isira Adithya: 393 accepted / 5 years ≈ 6.5/month). Target pace: **8.3 accepted/month** to beat that timeline by a year.
 
 Restriction note: BBP submissions blocked until mid-January due to NIC/bank verification. VDP submissions count fully toward this target during the restricted window.
