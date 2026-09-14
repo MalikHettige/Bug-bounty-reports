@@ -3,12 +3,12 @@
 **Self-taught Application Security Researcher from Sri Lanka.** No mentor.
 No bootcamp. Just public reports, PortSwigger labs, and 12-hour days.
 
+
 This repo is how I learn: I take disclosed reports, reverse-engineer the
 methodology, and write how *I* would have found each bug. Not summaries.
 Not copy-paste. My own recon, my own testing steps, my own mistakes.
 Real triage data is the closest thing to ground truth for pattern
 recognition.
-
 Real VDP/paid-program submissions live here too, in `live-hunts/`, once
 there's something to submit. Lab practice (PortSwigger, HTB) lives in a
 separate repo — [Bug-bounty-writeups](https://github.com/MDHettige17BBH/Bug-bounty-writeups).
@@ -32,6 +32,7 @@ Bug-bounty-reports/
 │   ├── idor/
 │   ├── authentication/
 │   └── business-logic/
+|   └── race-conditions/
 └── lessons-learned/             ← rejections, duplicates, N/A findings — failure analysis
 ```
 
