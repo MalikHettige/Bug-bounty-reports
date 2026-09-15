@@ -5,18 +5,6 @@ Notes on how it's structured:
 - **Section 6** is deliberately ranked by impact × likelihood, not novelty — this is also good training for report-writing later, since severity justification is exactly this same reasoning restated for a triager.
 - **Section 7** exists so once you're hunting, the breakdown becomes a living document instead of a one-time exercise — you're tracking which hypotheses paid off, which builds your own pattern library over time (same value as the 200 disclosed reports, but from your own testing).
 
-## Progress toward goal: 6 target breakdowns by January 2027
-
-| # | Target | Started | Status |
-|---|--------|---------|--------|
-| 1 | qa.airvantage.io | 2026-09-15 | In progress |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
----
-
 # TARGET BREAKDOWN — [target name]
 
 Date: _______  Program: _______  Platform: H1 / Bugcrowd / Intigriti / HackenProof
