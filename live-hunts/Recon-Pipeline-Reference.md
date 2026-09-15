@@ -87,8 +87,6 @@ curl -s https://$TARGET/[path]      # full body, not just headers, when you need
 - Directory fuzzing won't find JWT/OAuth/SSRF/smuggling bugs directly — it finds *where* to point manual protocol-level testing (Burp) next. Recon narrows the target list; it doesn't replace manual testing.
 - Most recon cycles end in a dead end — that's expected, not a failure. The job is to filter fast (30 min–few hours) before committing real hunting time, not to guarantee a lead every time.
 
----
-
 ## Notes
 
 |  |  |
