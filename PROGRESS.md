@@ -1,6 +1,6 @@
 ## Progress of Disclosed reports observations
 
-Reports analyzed: 19 / 200+ (2026 target)
+Reports analyzed: 21 / 200+ (2026 target)
 
 | Report | Title | Vulnerability |
 |--------|-------|----------------|
