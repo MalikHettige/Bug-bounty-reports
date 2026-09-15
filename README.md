@@ -28,6 +28,9 @@ Bug-bounty-reports/
 │   ├── idor/
 │   ├── authentication/
 │   └── business-logic/
+|   └── Template.md
+|   └── target-breakdowns/
+|   └── Recon-Pipeline-Reference.md
 ├── disclosed-report-analysis/   ← other people's published reports, analyzed
 │   ├── idor/
 │   ├── authentication/
