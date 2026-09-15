@@ -1,6 +1,6 @@
 # Recon Cheat Sheet
 
-Substitute $TARGET per program before running.
+Substitute `$TARGET` per program before running.
 
 ### 1. Subdomain discovery (passive)
 
