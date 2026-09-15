@@ -1,5 +1,4 @@
 # Recon Pipeline Reference
-
 Standard sequence run against any new in-scope target before manual testing begins. Replace `[target]`with the actual domain, or set ``TARGET="[target]"``once and reuse across steps.
 
 ### Steps
@@ -57,7 +56,6 @@ curl -s https://$TARGET/[path]      # full body, not just headers, when you need
 ```
 
 ## Known patterns to recognize; Signal Reference
-
 ### Dead Ends — Stop / Pivot
 
 | Signal | Meaning | Action |
@@ -83,12 +81,10 @@ curl -s https://$TARGET/[path]      # full body, not just headers, when you need
 - Status code alone means nothing. A 302 with a distinct error can be more interesting than a boring 200 — judge by deviation from baseline, not the code itself.
 
 **Know what recon can and can't do**
-
 - Directory fuzzing won't find JWT/OAuth/SSRF/smuggling bugs directly — it finds *where* to point manual protocol-level testing (Burp) next. Recon narrows the target list; it doesn't replace manual testing.
 - Most recon cycles end in a dead end — that's expected, not a failure. The job is to filter fast (30 min–few hours) before committing real hunting time, not to guarantee a lead every time.
 
 ## Notes
-
 |  |  |
 | --- | --- |
 | **Wordlist** | SecLists — `~/SecLists/Discovery/Web-Content/raft-medium-directories.txt`, cloned via `git clone --depth 1` to avoid large-repo connection drops |
