@@ -44,9 +44,9 @@ Any 200/301/302/403 hit that looks distinct (not part of a wildcard-redirect pat
 gets an individual curl -s (or `curl -s` ?full, or browser check) to see actual response content.
 
 ## Recon Pipeline (parameterized) the "what and why" version
+Replace `[target]` with the actual domain before running.
 
-Replace [target] with the actual domain before running.
-
+```bash
 TARGET="[target]"
 
 subfinder -d $TARGET -silent -o subs_$TARGET.txt
@@ -54,3 +54,4 @@ cat subs_$TARGET.txt | httpx -title -tech-detect -status-code -location -web-ser
 ffuf -u https://$TARGET/FUZZ -w ~/SecLists/Discovery/Web-Content/raft-medium-directories.txt -mc 200,301,302,403 -t 50
 curl -sI https://$TARGET
 curl -sI https://$TARGET/login
+```
