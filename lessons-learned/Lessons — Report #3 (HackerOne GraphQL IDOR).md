@@ -1,6 +1,0 @@
-- Never open with a textbook definition of the vulnerability — triagers already know
-- Keep format consistent: Summary → Steps → Impact → Fix
-- Each step = one action only. Long steps = split them
-- Short Impact = red flag. Always explain real world consequence
-- Retest: programs sometimes invite you to verify their fix works and pay extra ($175 here). Always accept these.
-- GraphQL IDOR: base64 encoded IDs can be decoded, incremented, and used to access other users' objects

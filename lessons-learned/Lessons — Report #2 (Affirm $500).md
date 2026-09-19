@@ -1,8 +1,0 @@
-- Summary must state WHAT happened specifically, not just define the vulnerability type
-- Always number your steps — unnumbered steps make triagers work harder
-- Always state your tools used (e.g. "Using Burp Suite Community Edition")
-- More proof is better — screenshots + video is fine for complex bugs
-- Generic remediation ("implement proper access controls") is weak — always be specific
-- NEVER repeatedly ask for updates — it damages your reputation
-- Preconditions lower severity — "checkout_ari is hard to guess" reduced this from High to Medium
-- Always accept severity decisions professionally
