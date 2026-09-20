@@ -8,8 +8,7 @@ Reports analyzed: 21 / 200+ (2026 target)
 | 120121c | Delete any group of any organization remotely | Critical IDOR |
 | 642886c | Reauthentication for changing password bypass | Authentication bypass |
 | 3219944 | Scheduled data leak to other accounts by "projectID" | IDOR |
-| 759247 | Race Condition allows redeeming multiple times — gift cards leading to free "money" | Race Condition |
-| 1849626 | Fee discounts can be redeemed many times, resulting in unlimited fee-free transactions | Business Logic Errors |
+| 1849626 | Fee discounts can be redeemed many times, resulting in unlimited fee-free transactions | Business Logic Errors(Race Condition) |
 | 415081 | IDOR to add secondary users in www.paypal.com/businessmanage/users/api/v1/users | IDOR |
 
 Update this table as each new disclosed-report-analysis file lands in
