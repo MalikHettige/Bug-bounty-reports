@@ -3,15 +3,25 @@
 ## Report Information
 
 **Original Report:** [hackerone.com/reports/272570](https://hackerone.com/reports/272570)
+
 **Platform:** HackerOne
+
 **Program:** Bitwarden
+
 **Reporter:** rhynorater (Justin Gardner)
+
 **Reported:** September 28, 2017 | **Resolved:** September 28, 2017 | **Disclosed:** October 28, 2017
+
 **Bounty:** Hidden
+
 **Severity:** Medium (4 ~ 6.9)
+
 **Weakness:** Business Logic Errors
+
 **CVE:** None
+
 **Scope:** vault.bitwarden.com (changed from bitwarden.com by the program)
+
 **Tags:** #BusinessLogic #PrivilegeEscalation #BrokenAccessControl #RBAC
 
 **Original title:** "Application Logic Error - Admin -> Owner Privledge Esc / Organization takeover" (renamed by the program to the current title)
