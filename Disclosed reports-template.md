@@ -4,6 +4,8 @@
 
 **Original Report:** [Link]
 
+**Date:** dd-mm-yyyy
+
 **Platform:** HackerOne / Bugcrowd / Intigriti / Other
 
 **Bounty:** $X,XXX  
@@ -13,7 +15,6 @@
 
 **Tags:** #IDOR #AccessControl #H1
 
----
 
 # Executive Summary
 
@@ -21,8 +22,6 @@
 - What vulnerability was found
 - Who/what was affected
 - Why it was important]
-
----
 
 # Vulnerability Overview
 
@@ -36,8 +35,6 @@ Include:
 - The attack flow
 - Required conditions
 
----
-
 ## Root Cause Analysis
 
 [Explaination why the vulnerability existed.]
@@ -48,8 +45,6 @@ Examples:
 - Incorrect business logic implementation
 - Trusting client-side data
 - Missing ownership verification
-
----
 
 # Hunter Analysis
 
@@ -63,8 +58,6 @@ Document:
 - Tools used
 - Interesting observations
 - Researcher's thought process
-
----
 
 ## My Alternative Approach
 
@@ -89,8 +82,6 @@ Include:
 ### Payloads / Requests
 [Important requests, parameters, or techniques.]
 
----
-
 # Impact Analysis
 
 ## Technical Impact
@@ -102,8 +93,6 @@ Examples:
 - Modify another user's resources
 - Execute actions without permission
 
----
-
 ## Business Impact
 
 [Real-world consequences for the organization.]
@@ -114,8 +103,6 @@ Examples:
 - Loss of customer trust
 - Financial/reputation damage
 
----
-
 ## Scope & Severity
 
 [Estimate the affected area.]
@@ -123,8 +110,6 @@ Examples:
 - Required privileges
 - Attack complexity
 - Severity reasoning
-
----
 
 # Key Lessons & Patterns
 
@@ -138,8 +123,6 @@ Examples:
 
 - 
 
----
-
 # Personal Reflection
 
 [my personal notes.]
@@ -147,8 +130,6 @@ Examples:
 - What mistake did the developer make?
 - What did I learn?
 - How will I apply this during hunting?
-
----
 
 # References
 
