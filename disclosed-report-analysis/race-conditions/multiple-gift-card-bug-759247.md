@@ -20,6 +20,7 @@
 
 A race condition in Reverb.com's gift-card redemption endpoint allowed an authenticated attacker to redeem a single gift card multiple times by firing concurrent requests via a single-packet attack (Turbo Intruder). Because the "is this card already redeemed?" check and the "mark it as redeemed" write were not atomic, all 30 concurrent requests passed validation before any of them committed the used-state, letting a single $25 card be redeemed 7 times for $175 in account credit. This is significant because the financial loss scales directly with concurrency — an attacker isn't limited to 7x, only to how many parallel requests they choose to fire.
 
+Click to view the (python script)[https://github.com/MalikHettige/Scripts-tools/blob/main/business-logic/disclosed-reports/turbo-intruder-template.py] the attacker used in Tubro intruder 
 # Vulnerability Overview
 
 ## Vulnerability Details
