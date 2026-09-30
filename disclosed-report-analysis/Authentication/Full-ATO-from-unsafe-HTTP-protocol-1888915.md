@@ -87,7 +87,9 @@ curl -I http://target/oauth/callback?code=X
 
 # Check whether HSTS is present on the base domain
 
+```
 curl -I https://target/ | grep -i strict-transport-security
+```
 
 # Impact Analysis
 
