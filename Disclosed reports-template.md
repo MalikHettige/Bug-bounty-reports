@@ -133,6 +133,5 @@ Examples:
 
 # References
 
-- Original report:
 - Related OWASP category:
 - Related research/articles:
