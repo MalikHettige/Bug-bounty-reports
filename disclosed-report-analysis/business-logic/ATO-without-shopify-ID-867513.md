@@ -10,6 +10,8 @@
 
 **Severity:** Critical (9–10)
 
+**Date:** 30-09-2026
+
 **Vulnerability Type:** Business Logic — trust-state bypass leading to account takeover (secondary: broken access control on staff object updates)
 
 **Tags:** #AccountTakeover #BusinessLogic #EmailVerificationBypass #H1
