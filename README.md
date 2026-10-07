@@ -3,7 +3,7 @@
 **Self-taught Application Security Researcher from Sri Lanka.** No mentor.
 No bootcamp. Just public reports, PortSwigger labs, and 12-hour days.
 
-### Read this to get an idea: (ATO-via-leaked-session-cookie-745324)[https://github.com/MalikHettige/Bug-bounty-reports/blob/main/disclosed-report-analysis/Authentication/ATO-via-leaked-session-cookie-745324.md]
+### Read this to get an idea: [ATO-via-leaked-session-cookie-745324](https://github.com/MalikHettige/Bug-bounty-reports/blob/main/disclosed-report-analysis/Authentication/ATO-via-leaked-session-cookie-745324.md)
 
 This repo is how I learn: I take disclosed reports, reverse-engineer the
 methodology, and write how *I* would have found each bug. Not summaries.
