@@ -18,6 +18,8 @@ separate repo — [Bug-bounty-writeups](https://github.com/MDHettige17BBH/Bug-bo
 
 **Progress:** see [PROGRESS.md](./PROGRESS.md)
 
+**[Use this repo to read disclosed reports (from H1)](https://github.com/reddelexc/hackerone-reports)** 
+
 ## Structure
 
 ```
