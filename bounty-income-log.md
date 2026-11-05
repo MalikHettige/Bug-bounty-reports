@@ -32,6 +32,7 @@ Findings that were valid but didn't pay — duplicates, known issues, informatio
 | Date | Source | What happened | What I'd do differently |
 |------|--------|----------------|---------------------------|
 | Aug 9, 2026 | Omnicell (VDP) | Reported missing auth on `POST /api/Common/Audit` (unauthenticated writes to audit log). Solid finding, correct methodology — but closed Aug 12 as duplicate of #3894990, submitted July 28 (12 days earlier) | Test/report faster after recon — the gap here wasn't skill, it was speed. Prioritize submitting as soon as a solid finding is confirmed rather than polishing the writeup further first |
+| Nov 5, 2026 | Connecteam (VDP) | Reported unauthenticated Splunk version/build disclosure on mcp-splunk.prod.connecteam.com. Base finding valid, but I escalated it with an unverified CVE-2026-20253 RCE claim — my own report showed the proof-of-exploitability endpoints 404'd. Closed Not Applicable (negligible impact). | Don't pair a disclosure finding with a severity-escalating CVE claim unless reachability is confirmed first. A plain, honest P5 beats an overreached one that reads as unverified. |
 
 ---
 
