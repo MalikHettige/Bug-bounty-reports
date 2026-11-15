@@ -5,7 +5,6 @@
 This is the number that actually matters. Everything else — CryptoZombies, Cyfrin, Ethernaut, audit reports, medium write-ups, portswigger research papers, H101 CTFs ,PortSwigger labs, contests — is instrumental to this log filling up.
 
 **Target:** $10,000 saved/earned, at once or accumulated, no deadline pressure beyond "as early as possible."
-**Why:** A better laptop, a working phone, OSCP and other exams.
 
 ---
 
